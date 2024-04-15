@@ -1,6 +1,6 @@
-﻿namespace Clone_Postman.Forms.MainForms
+﻿namespace PostmanClone.UI
 {
-    partial class Dashboard
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,16 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SuspendLayout();
-            // 
-            // Dashboard
-            // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Name = "Dashboard";
-            Text = "Dashboard";
-            ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
         }
 
         #endregion

@@ -1,6 +1,4 @@
-using Clone_Postman.Forms.MainForms;
-
-namespace Clone_Postman
+namespace PostmanClone.UI
 {
     internal static class Program
     {
@@ -13,7 +11,7 @@ namespace Clone_Postman
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Dashboard());
+            Application.Run(new Form1());
         }
     }
 }
